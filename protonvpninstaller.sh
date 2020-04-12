@@ -7,7 +7,7 @@ if [ "$1" == "-h" ]; then
 	echo " \                Created by d43m0nhLInt3r               / "
 	echo " ========================================================= "
 	echo ""
-	echo "Usage: ./protonvpninstaller.sh"
+	echo "Usage: sudo ./protonvpninstaller.sh"
 	echo "https://github.com/d43m0nhLInt3r/SimpleLinuxScripts"
   exit 0
 fi
