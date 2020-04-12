@@ -1,2 +1,4 @@
 # SimpleLinuxScripts
-My own Linux scripts
+<h3>Usage</h3>
+execute script: ./scriptname.sh
+help: ./scriptname.sh -h
