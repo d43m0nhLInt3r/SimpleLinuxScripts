@@ -37,5 +37,5 @@ if [ $release == "debian" ]; then
 	elif [ $release == "arch" ]; then
 		sudo pacman -S openvpn dialog python-pip python-setuptools
 	fi
-pip3 list | grep "protonvn" && echo "ProtonVPN seems to be installed!" && echo "trying to upgrade to a newer version..." && sudo pip3 install protonvpn-cli --upgrade && echo "done" && exit 0 
+pip3 list | grep "protonvpn" && echo "ProtonVPN seems to be installed!" && echo "trying to upgrade to a newer version..." && sudo pip3 install protonvpn-cli --upgrade && echo "done" && exit 0 
 echo "ProtonVPN seems not to be installed" && echo "trying to install it now" && sudo pip3 install protonvpn-cli && echo "done" && echo "starting initialization" && sudo protonvpn init && exit 1
