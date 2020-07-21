@@ -2,7 +2,7 @@
 if [ "$1" == "-h" ]; then
 	echo ""
 	echo " ========================================================= "
-	echo " \              protonvpninstaller.sh  Script            / "
+	echo " \                   protonvpninstaller.sh               / "
 	echo " \      The simple way to install the ProtonVPN CLI      / "
 	echo " \                Created by d43m0nhLInt3r               / "
 	echo " ========================================================= "

@@ -2,7 +2,7 @@
 if [ "$1" == "-h" ]; then
 	echo ""
 	echo " ========================================================= "
-	echo " \               cloneRepositories.sh  Script            / "
+	echo " \                   cloneRepositories.sh                / "
 	echo " \          Clone my Repositories with this script       / "
 	echo " \                Created by d43m0nhLInt3r               / "
 	echo " ========================================================= "

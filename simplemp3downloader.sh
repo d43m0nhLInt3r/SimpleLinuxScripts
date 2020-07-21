@@ -2,7 +2,7 @@
 if [ "$1" == "-h" ]; then
 	echo ""
 	echo " ========================================================= "
-	echo " \            SimpleMP3Downloader.sh  Script             / "
+	echo " \                 SimpleMP3Downloader.sh                / "
 	echo " \             Download music in best quality            / "
 	echo " \                Created by d43m0nhLInt3r               / "
 	echo " ========================================================= "
