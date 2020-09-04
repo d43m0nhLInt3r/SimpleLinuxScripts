@@ -15,10 +15,10 @@ fi
 IP=$(zenity --entry --name=allowIncomingPort --text=IP: --entry-text=127.0.0.1)
 FP=$(zenity --entry --name=allowIncomingPort --text=from Port: --entry-text=20)
 TP=$(zenity --entry --name=allowIncomingPort --text=to Port: --entry-text=22)
-P=$(zenity --column 'UDP or TCP?' --list "UDP" "TCP")
-if [ "$P" == "UDP" ]; then
+P=$(zenity --column 'UDP or TCP?' --list "udp" "tcp")
+if [ "$P" == "udp" ]; then
 sudo ufw allow from "$IP" to any port "$FP":"$TP" proto "$P"
-elif [ "$P" == "TCP" ]; then
+elif [ "$P" == "tcp" ]; then
 sudo ufw allow from "$IP" to any port "$FP":"$TP" proto "$P"
 else
 echo "Error"
