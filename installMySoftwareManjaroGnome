@@ -1,5 +1,5 @@
 #!/bin/bash
 #Repositories
-pamac install dia firefox gimp inkscape kdenlive keepassxc krita neovim obs-studio signal-desktop torbrowser-launcher caffeine-ng etcher neofetch gnome-shell-extension-material-shell
+pamac install dia firefox chromium code gnome-boxes zsh-theme-powerlevel10k evolution evolution-ews gnome-shell-extension-pop-shell gimp inkscape kdenlive keepassxc krita neovim obs-studio signal-desktop torbrowser-launcher caffeine-ng etcher neofetch gnome-shell-extension-material-shell
 #AUR
-pamac build freetube-bin iridium-rpm vscodium-bin bpytop
+pamac build freetube-git bpytop joplin
